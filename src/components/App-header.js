@@ -1,6 +1,8 @@
     import React from 'react';
-    import { BurgerIcon, Tab, Logo, ProfileIcon , ListIcon, Typography} from '@ya.praktikum/react-developer-burger-ui-components'
-    
+    import { BurgerIcon, Tab, Logo, ProfileIcon , ListIcon, Typography, Box} from '@ya.praktikum/react-developer-burger-ui-components'
+    import "../App.css"
+import BurgerIngredient from './BurgerIngredients'
+
     function Header () {
         return (
         
@@ -8,18 +10,21 @@
             <header>
                 
               <nav>
-                <BurgerIcon className = "App-header "/>
+                <BurgerIcon type="primary" className = "App-header "/>
          Конструктор
-          </nav>
+    
+          
             
-            <nav>
+            
                 <ListIcon type="primary" /> 
             Лента заказов
-            </nav>
+            
             <Logo />
             <ProfileIcon type="primary" />
+            Личный кабинет
+            </nav>
             </header>
-            
+            <BurgerIngredient/>
             </>
     
     
