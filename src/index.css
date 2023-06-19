@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url("./fonts/JetBrains/JetBrainsMono-Regular.woff") format("woff");
+}

@@ -1,5 +1,5 @@
     import React from 'react';
-    import { BurgerIcon, Tab, Logo, Icons, Typography} from '@ya.praktikum/react-developer-burger-ui-components'
+    import { BurgerIcon, Tab, Logo, ProfileIcon , ListIcon, Typography} from '@ya.praktikum/react-developer-burger-ui-components'
     
     function Header () {
         return (
@@ -8,14 +8,16 @@
             <header>
                 
               <nav>
-                <BurgerIcon />
+                <BurgerIcon className = "App-header "/>
          Конструктор
           </nav>
             
             <nav>
-                <ListIcon />
+                <ListIcon type="primary" /> 
             Лента заказов
             </nav>
+            <Logo />
+            <ProfileIcon type="primary" />
             </header>
             
             </>
