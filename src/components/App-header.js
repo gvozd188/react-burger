@@ -1,5 +1,5 @@
     import React from 'react';
-    import { BurgerIcon, Tab, Logo, ProfileIcon , ListIcon, Typography, Box} from '@ya.praktikum/react-developer-burger-ui-components'
+    import { BurgerIcon,  Logo, ProfileIcon , ListIcon, Typography, Box} from '@ya.praktikum/react-developer-burger-ui-components'
     import "../App.css"
 import BurgerIngredient from './BurgerIngredients'
 
